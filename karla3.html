@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+     <meta charset="UTF-8">
+     <title> Karla Gissel - Familia </title>
+         <style>
+             html, body {
+                 margin: 0;
+                 padding: 0;
+                 width: 100%;
+                 min-height: 100vh;
+                 background-color: rgb(140, 190, 233); /* El azul cubre TODA la pantalla */
+                 font-family: sans-serif;
+                 display: flex;
+                 flex-direction: column;
+             }
+
+             header {
+                 display: flex;
+                 justify-content: space-between;
+                 align-items: center;
+                 background-color: rgb(110, 165, 215); /* Un tono azul un poco más oscuro para contrastar */
+                 padding: 15px 30px;
+                 box-sizing: border-box;
+             }
+
+             .logo-pequeno {
+                 width: 50px;
+                 height: auto;
+                 display: block;
+             }
+
+             .barra-navegacion {
+                 display: flex;
+                 gap: 15px;
+                 margin-top: 10px;
+             } 
+
+             .boton-nav {
+                 text-decoration: none;
+                 color: rgb(0, 0, 0);
+                 background-color: rgb(176, 202, 247);
+                 padding: 8px 16px;
+                 border-radius: 4px;
+                 font-size: 14px;
+                 transition: background-color 0.3s;
+             }
+
+             .boton-nav:hover {
+                 background-color: rgb(123, 151, 216);
+                 color: white;
+             } 
+
+             .boton-nav.activo {
+                 background-color: rgb(160, 212, 231); /* Color estático */
+                 color: white;
+                 font-weight: bold;
+             }
+
+             main {
+                 display: flex;
+                 gap: 30px;
+                 padding: 30px;
+                 box-sizing: border-box;
+                 flex: 1; 
+                 width: 100%;
+             }
+
+             aside {
+                 width: 25%; 
+                 display: flex;
+                 justify-content: center;
+                 align-items: flex-start;
+             }
+
+             aside img {
+                 width: 100%;
+                 max-width: 350px;
+                 height: auto;
+                 display: block;
+                 
+             }
+
+             section {
+                 width: 75%;
+                 display: flex;
+                 flex-direction: column;
+             }
+
+             article {
+                 width: 100%;
+                 background-color: rgb(173, 202, 248); /* El fondo azul de tu tarjeta */
+                 padding: 25px;
+             }
+
+             article img {
+                 max-width: 100%;
+                 height: auto;
+                 display: block;
+                 
+             }
+
+             footer {
+                 background-color: rgb(110, 165, 215);
+                 padding: 15px;
+                 width: 100%;
+             }
+
+             footer p {
+                 margin: 0;
+                 font-size: 14px;
+             }
+         </style>
+    </head>  
+    <body>
+        <header>
+            <div>
+                <h1 style="margin:0;">Mi sitio web</h1>
+                <nav class="barra-navegacion">
+                    <a href="karla1.html" class="boton-nav">Inicio-Shin chan</a>
+                    <a href="karla2.html" class="boton-nav">Quien es shinchan?</a>
+                    <a href="karla3.html" class="boton-nav activo">Familia</a>
+                </nav>
+            </div>
+            <img src="IMAGENES/azul.jpg" alt="logo de mi sitio web" title="logo de la marca" class="logo-pequeno">
+        </header>
+
+        <main>
+            <aside>
+                <img src="IMAGENES/anuncio3.jpg" alt="anuncios">
+            </aside>
+            <section>
+                <article>
+                    <img src="IMAGENES/familia.jpg" alt="foto">
+                    <h1>Shin Chan</h1>
+                    <p>La familia de Shin Chan, conocida como la Familia Nohara, vive en la ciudad de Kasukabe, en la prefectura de Saitama, Japón.</p>
+                    <ul>
+                        <li><strong>Shinnosuke Nohara (Shin-chan):</strong> Es el protagonista. Tiene 5 años, es muy travieso, desvergonzado y le gusta hacer reír o enojar a los demás con sus ocurrencias.</li>
+                        <li><strong>Hiroshi Nohara:</strong> Es el padre. Tiene 35 años y trabaja como oficinista en una empresa. Le gusta beber cerveza y le huelen los pies.</li>
+                        <li><strong>Misae Nohara:</strong> Es la madre. Tiene 29 años y es ama de casa. Le gusta buscar ofertas, cuidar el dinero y regañar las travesuras de Shin-chan.</li>
+                        <li><strong>Himawari Nohara:</strong> Es la hermana menor de Shin-chan. Es una bebé a la que le fascinan las joyas y los chicos guapos.</li>
+                        <li><strong>Nevado (Shiro):</strong> Es el perro de la familia, un perrito blanco y peludo que suele ser el más sensato de la casa a pesar de estar algo descuidado por Shin-chan.</li>
+                    </ul>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <p>Creado por Arista Flores Karla Gissel</p>
+        </footer>
+    </body>
+</html>
